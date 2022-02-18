@@ -1,0 +1,152 @@
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  padding: 20px 20%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 24px;
+  color: #F9FAF8;
+  gap: 30px;
+}
+
+ul {
+  color: #E5E7EB;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+
+.header, .theme, .footer{
+  background-color: #1f2937;
+}
+
+.footer {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  color: #E5E7EB;
+}
+.footer h3 {
+  font-size: 18px;
+}
+
+.theme {
+  padding: 20px 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #E5E7EB;
+  font-size: 18px;
+  gap: 16px;
+}
+
+.theme-text {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+.theme-image {
+  flex: 1;
+}
+
+.theme-text h1 {
+  color: #F9FAF8;
+  font-size: 48px;
+  font-weight: bolder;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+
+.theme-text button {
+  color: #F9FAF8;
+  max-width:100px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #3882f6;
+  font-size: 16px;
+  font-weight: bold;
+  border-width: 0px;
+}
+
+.info{
+  padding: 20px 20%;
+  text-align: center;
+}
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.card-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 10px;
+  border: 5px solid #3882f6
+}
+
+.card {
+  max-width: 160px;
+  display: flex;
+  flex-flow: column wrap;
+}
+.card p {
+  max-width: 140px;
+}
+
+.quote {
+  background-color: #E5E7EB;
+  padding: 20px 25%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #1F2937;
+  font-size: 24px;
+  font-style: italic;
+}
+
+.quote h4 {
+  align-self: flex-end;
+  margin-right: 40px;
+  margin-top: -15px;
+  font-size: 32px;
+  font-weight: bolder;
+}
+
+.banner {
+  display: flex;
+  justify-content: space-between;
+  background-color: #3882f6;
+  border-radius: 5px;
+  padding: 10px 80px;
+  align-items: center;
+  gap: 30px;
+}
+
+.promo{
+  padding: 80px 20%;
+}
+
+.promo button {
+  color: #F9FAF8;
+  max-width:100px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #3882f6;
+  font-size: 16px;
+  font-weight: bold;
+  border: 2px solid white;
+  min-width: 100px;
+}
